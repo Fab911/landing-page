@@ -1,0 +1,65 @@
+#flexbox-1 {
+    background-color: #1F2937;
+    height: 400px;
+    margin: -8px -8px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#header-logo {
+    font-size: 24px;
+    margin-bottom: 70px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#this-website-is {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: -18px;
+    font-weight: 900;
+    
+}
+
+
+#the-paragraphe {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+
+
+#sign-up {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-top: -19%;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+}
+#cat-photo {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+}
