@@ -1,3 +1,11 @@
+h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
 #flexbox-1 {
     background-color: #1F2937;
     height: 400px;
@@ -13,7 +21,6 @@
     font-size: 24px;
     margin-bottom: 70px;
     color: #F9FAF8;
-    font-weight: 900;
 }
 
 #this-website-is {
@@ -34,15 +41,21 @@
 
 
 #sign-up {
+    text-decoration: none;
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 90px;
-    height: 30px;
-    line-height: 30px;
+    display: inline-block;
+    width: 6rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
-    text-decoration: none;
+    border-radius: 7px;
+    
 }
+
+
+
 
 .header-link {
     font-size: 18px;
@@ -62,4 +75,142 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding-right: 4%;
+}
+
+.boxes-row {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    
+}
+
+
+
+.the-boxes {
+    border: outset;
+    border-color: #3882F6;
+    border-radius: 10px;
+    border-width: 5px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-bottom: -10px;
+    
+}
+
+
+.box-container {
+    max-width: 170px;
+    transition: all 0.3s ease;
+}
+.box-container:hover {
+    transform: scale(1.1);
+}
+
+.paragraphs {
+    font-size: 18px;
+    color: solid #E5E7EB;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+.box3 {
+    background-color: lightgray;
+    height: 500px;
+    margin: 0px -10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+#box3-paragraph {
+    font-size: 36px;
+    color: #1F2937;
+    font-family: "Ancizar Serif", serif;
+    max-width: 800px;
+    margin-bottom: -20px;
+    
+}
+
+#thor {
+    font-size: 36px;
+    font-family: "Ancizar Serif", serif;
+    font-weight: 900;
+    align-self: flex-end;
+    padding-right: 25rem;
+}
+
+.container-of-box4-container {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#box4-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    gap: 8rem;
+    border:outset;
+    border-radius: 7px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    height: 10rem;
+    width: 60rem;
+
+
+
+}
+
+#box4-paragraph1 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: white;
+    max-width: 800px;
+    margin-bottom: -20px;
+}
+
+#box4-paragraph2 {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    color: #E5E7EB;
+}
+
+#box4-signup {
+    font-size : 19px;
+    font-weight: 700;
+    text-decoration: none;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    width: 8rem;
+    
+    
+
+}
+
+.box5 {
+    background-color: #1F2937;
+    height: 150px;
+    margin: -8px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    color: white;
 }
